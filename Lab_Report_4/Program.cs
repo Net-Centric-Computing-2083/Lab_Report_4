@@ -5,8 +5,6 @@ using System.Reflection;
 using System.Threading.Tasks;
 
 // Task 4: Custom Attribute
-
-
 [AttributeUsage(AttributeTargets.Class)]
 class ProductInfoAttribute : Attribute
 {
@@ -19,8 +17,6 @@ class ProductInfoAttribute : Attribute
 }
 
 // Product Class
-
-
 [ProductInfo("This class stores product information.")]
 class Product
 {
@@ -41,8 +37,6 @@ class Product
 class Program
 {
     // Task 5: Async/Await
- 
-
     static async Task LoadProductsAsync()
     {
         Console.WriteLine("\nLoading product data...");
@@ -65,10 +59,7 @@ class Program
             new Product(104,"Table","Furniture",8000),
             new Product(105,"Mouse","Electronics",1500)
         };
-
-
         // Task 1: LINQ - Display All Products
-    
 
         Console.WriteLine("\nAll Products:");
 
