@@ -17,7 +17,7 @@ class ProductInfoAttribute : Attribute
     }
 }
 
-[ProductInfo("Kushal Pahadi", "1.0")]
+[ProductInfo("Kushal Pahadi", "80010.932")]
 class Product
 {
     public int Id { get; set; }
@@ -115,7 +115,7 @@ class Program
     static async Task LoadProductsAsync()
     {
         Console.WriteLine("Loading products...");
-        await Task.Delay(3000);
+        await Task.Delay(13000);
         Console.WriteLine("Products Loaded Successfully.");
     }
 }
