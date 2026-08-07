@@ -17,7 +17,7 @@ class ProductInfoAttribute : Attribute
     }
 }
 
-[ProductInfo("Kushal Pahadi", "80010.932")]
+[ProductInfo("Nirmit", "80010934")]
 class Product
 {
     public int Id { get; set; }
